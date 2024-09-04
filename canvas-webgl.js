@@ -1998,7 +1998,7 @@
 					if (node == null) {
 						console.warn("Texture full: contact the canvas-webgl API developer for a fix");
 					} else {
-						gl.texSubImage2D(gl.TEXTURE_2D, 0, node.rect.x, node.rect.y, gl.RGBA, gl.UNSIGNED_BYTE, img);
+						//gl.texSubImage2D(gl.TEXTURE_2D, 0, node.rect.x, node.rect.y, gl.RGBA, gl.UNSIGNED_BYTE, img);
 					}
 				} else {
 					for (var i in img.nodes) {
